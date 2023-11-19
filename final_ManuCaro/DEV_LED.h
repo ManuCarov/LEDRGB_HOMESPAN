@@ -1,4 +1,3 @@
-
 #include "extras/PwmPin.h"                          
 
 struct DEV_RgbLED : Service::LightBulb {       
@@ -89,7 +88,5 @@ struct DEV_RgbLED : Service::LightBulb {
     bluePin->set(B);    
       
     return(true);                              
-  } // update
+  }
 };
-      
-//////////////////////////////////
